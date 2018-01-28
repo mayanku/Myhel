@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "803714096947",
+    "firebase_url": "https://myhel-efe5a.firebaseio.com",
+    "project_id": "myhel-efe5a",
+    "storage_bucket": "myhel-efe5a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:803714096947:android:c62933798918f9c3",
+        "android_client_info": {
+          "package_name": "com.tut.mayank.myhel"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "803714096947-c4rodmd8u24smm0i8dk3h8omcm9oipm4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.tut.mayank.myhel",
+            "certificate_hash": "d94116c416a630e91e830f68e10101df595af007"
+          }
+        },
+        {
+          "client_id": "803714096947-ren4eu19hv1drj93nfeud7v03neii23h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA6KOZhZ9duAfzZsp_dcTVwUQlqar0VVfk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "803714096947-ren4eu19hv1drj93nfeud7v03neii23h.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0f64b9"
+    tools:context="com.tut.mayank.myhel.DetailsActivity">
+
+    <EditText
+        android:id="@+id/editname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="58dp"
+        android:layout_marginLeft="30dp"
+        android:background="@color/common_google_signin_btn_text_dark_default"
+        android:ems="10"
+        android:hint="Enter your name"
+        android:inputType="textPersonName"
+        android:layout_above="@+id/editmobile"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:id="@+id/editmobile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="59dp"
+        android:layout_marginLeft="30dp"
+        android:background="@color/common_google_signin_btn_text_dark_default"
+        android:ems="10"
+        android:hint="Enter your mobile number"
+        android:inputType="phone"
+        android:layout_above="@+id/editadd"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:id="@+id/editadd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="30dp"
+        android:layout_marginEnd="10dp"
+        android:background="@color/common_google_signin_btn_text_dark_default"
+        android:ems="10"
+        android:hint="Enter the address"
+        android:inputType="textImeMultiLine"
+        android:layout_alignParentEnd="true"
+        android:layout_alignStart="@+id/editmobile" />
+
+    <Button
+        android:id="@+id/payment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="86dp"
+        android:text="Pre/Post Payment"
+        android:layout_marginBottom="62dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>
